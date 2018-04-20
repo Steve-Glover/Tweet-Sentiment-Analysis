@@ -10,13 +10,13 @@ Steve Glover
 1.	Convert the encoding of the text to eliminate unrecognized characters
 2.	Transform the collection of text to vector corpus
 3.	Preprocess the text
-  * Remove URLs
-  * Replace abbreviations
-  * Convert all text to lowercase
-  * Remove punctuation
-  * Remove numerical characters
-  * Exclude commonly used stop words
-  * Strip excessive which space
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Remove URLs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Replace abbreviations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Convert all text to lowercase
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Remove punctuation
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Remove numerical characters
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Exclude commonly used stop words
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Strip excessive which space
 4.	Create a Term Document Matrix (TDM)
 5.	Using the TDM, simply sum the frequency of each word
 6.	Create a two-column data frame of the words and their frequencies

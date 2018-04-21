@@ -49,7 +49,7 @@ Steve Glover
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unlike the Bing lexicon, the qdap lexicon weights positive and negative words in the presence of other words. Through the use of amplification, de-amplification, and negate word libraries, qdap adjusts the intensity of a positive or negative word in the document. Qdap uses the weights and the total number of words in a document to calculate a total polarity score for the document.
 <br><br>
 
-The NRC lexicon is emotion association lexicon. The lexicon associates words with emotions such as anger, anticipation, disgust, fear, joy, and sadness. Evaluating the frequency of the emotional words used in a corpus can give us a high-level view of the emotional mix of the language used in the documents.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The NRC lexicon is emotion association lexicon. The lexicon associates words with emotions such as anger, anticipation, disgust, fear, joy, and sadness. Evaluating the frequency of the emotional words used in a corpus can give us a high-level view of the emotional mix of the language used in the documents.
 <br><br>
 
 The procedure to evaluate the sentiment of a corpus of documents is essentially the same regardless of which lexicon is used with small variations. I followed the following steps to analyze the sentiments of the tweets:
@@ -63,3 +63,15 @@ The procedure to evaluate the sentiment of a corpus of documents is essentially 
 
 ### Bing Sentiment Bar Chart
 ![bar chart bing sentiment measure over time](https://user-images.githubusercontent.com/22827466/39077682-bb55b7b4-44d1-11e8-8a61-065da7a2e9d0.png)
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As we can see from the above sentiment illustrations, the sentiment of the twitter chatter for Starbucks has been unarguably negative as indicated by the descent of the smoothed chart and the dark shading below zero boundary in the bar chart.  After viewing the above activity, I was curious to see what language contributed the most to the negative Bing sentiment scores. The negative language that is contributing the most to poor sentiment scores is clearly associated with the incident that occurred in Philadelphia in April of 2018.
+
+### Negative Language Contribution
+![highly negative](https://user-images.githubusercontent.com/22827466/39078217-dd8e8a96-44d5-11e8-9e0c-4b34607f0667.png)
+
+
+### Positive Language Contribution
+![highly positive](https://user-images.githubusercontent.com/22827466/39078226-f6678dd8-44d5-11e8-908d-4914cea5d192.png)
+
+

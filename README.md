@@ -1,4 +1,4 @@
-# Tweet-Sentiment-Analysis using R
+# Tweet Sentiment Analysis Using R
 Steve Glover
 ***
 

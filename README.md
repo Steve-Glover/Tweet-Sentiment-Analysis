@@ -3,7 +3,10 @@
 Steve Glover
 ***
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The purpose of this project was to explore various methods of text analysis on tweets using R. Given the bad press Starbucks has received over the last week, I thought it would be interesting to explore how well common text analysis practices capture the overall attitude toward Starbucks at present. I pulled the chatter of 2,000 tweets that included the hashtag “Starbucks” for the analysis using the twitteR API library. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The purpose of this project was to explore various methods of sentiment analysis on tweets using R. The following readme document is meant to be a narrative for the attached R script and assumes the reader has a base knowledge of natural language processing.  Given the bad press Starbucks has received over the last week, I thought it would be interesting to explore how well common text analysis practices capture the overall attitude toward Starbucks at present. I pulled the chatter of 2,000 tweets that included the hashtag “Starbucks” for the analysis using the twitteR API library. 
+<br><br>
+https://www.cbsnews.com/news/starbucks-brand-whacked-after-bias-incident/
+<br>
 
 ## Word Clouds
 ***
@@ -77,14 +80,17 @@ The procedure to evaluate the sentiment of a corpus of documents is essentially 
 
 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I used the same methodology that was used to analyze the tweets sentiment to explore the emotions associated with the tweets using the NRC lexicon. The below radar chart details the results of applying the NRC lexicon to the tweets. The strongest emotion associated with the tweets is negative, which is followed in frequency by positive, sadness, joy, fear, and surprise. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I used the same methodology that was used to analyze the tweets sentiment to explore the emotions associated with the tweets using the NRC lexicon. The below radar chart details the results of applying the NRC lexicon to the tweets. It is not surprising that there is not strong polarity in the emotional analysis. However, we can see that of all the emotions that contribute to the density of the radar charts area, negativity, positivity, sadness, anticipation, and trust are the most prevalent. 
 
 ### Emotion Radar Chart
 ![radar chart](https://user-images.githubusercontent.com/22827466/39078682-d4484bb6-44da-11e8-91a7-179212005c78.PNG)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   The text analysis that I conducted thus far has used lexicons for single word association and aggregated sentiment/emotion of all the text in a document. The analysis has been helpful to gauge the overall sentiment/emotion of the corpus. However, there is another more comprehensive method for analyzing the text of a corpus that uses the qdap lexicon and calculates the polarity of the text. I used this approach to compare and contrast the language that was used in the text with positive and negative polarity (sentiment).  The below commonality cloud illustrates the most prevalent language is present in both positive and negative tweets. Additionally, the comparison cloud shows the contrast between the positive and negative tweets. Clearly, the language is very densely associated the incident that took place last week. 
 
 ### Commonality Cloud
 ![commonality cloud](https://user-images.githubusercontent.com/22827466/39078725-8e65f552-44db-11e8-93c0-e262ec514c60.png)
 
 ### Comparision Cloud
 ![comparison cloud](https://user-images.githubusercontent.com/22827466/39078731-a4e3edc0-44db-11e8-964f-7fc41785029a.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using all of these methods one can not only estimate the general sentiment of the corpus but also identify the influence of the sentiment. While this is a very extreme example, it does demonstrate how these methods can be used to extract sentiment and subject matter from a large corpus of text.

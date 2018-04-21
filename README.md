@@ -3,7 +3,7 @@
 Steve Glover
 ***
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The purpose of this project was to explore various methods of sentiment analysis on tweets using R. The following readme document is meant to be a narrative for the attached R script and assumes the reader has a base knowledge of natural language processing.  Given the bad press Starbucks has received over the last week, I thought it would be interesting to explore how well common text analysis practices capture the overall attitude toward Starbucks at present. I pulled the chatter of 2,000 tweets that included the hashtag “Starbucks” for the analysis using the twitteR API library. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The purpose of this project was to explore various methods of sentiment analysis on tweets using R. The following readme document is meant to be a narrative for the attached R script and assumes the reader has a base knowledge of natural language processing.  Given the bad press Starbucks has received over the last week, I thought it would be interesting to explore how well common text analysis practices captures the overall attitude toward Starbucks at present. I pulled the chatter of 2,000 tweets that included the hashtag “Starbucks” for the analysis using the twitteR API library. 
 <br><br>
 https://www.cbsnews.com/news/starbucks-brand-whacked-after-bias-incident/
 <br>

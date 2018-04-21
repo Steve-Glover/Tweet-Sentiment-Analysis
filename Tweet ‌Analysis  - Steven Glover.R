@@ -19,10 +19,10 @@ library(ggplot2)
 # ====================
 
 # Customer Keys and Access Tokens to use the Twitter API
-consumer_key <- "N1al1pd2due3raskBTPR6ilDT"
-consumer_secret <- "JScZU557FJq86KG9KENGJgkFNRrEZ0hBjcsME7sltaeduy2Cxp"
-access_token <- "875727781438607362-FqJ0D5BXDQ70sWeQMOnKFsEMpIjKmzj"
-access_secret <- "TJNfjtmwoOAEqab6olWZMz6zNdvErj7ApU8RlllZCiLRK"
+consumer_key <- "consumer...key"
+consumer_secret <- "consumer....secret"
+access_token <- "access....token"
+access_secret <- "access....secret"
 
 # Send Authorization to Twitter
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)

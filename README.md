@@ -75,3 +75,15 @@ The procedure to evaluate the sentiment of a corpus of documents is essentially 
 ![highly positive](https://user-images.githubusercontent.com/22827466/39078226-f6678dd8-44d5-11e8-908d-4914cea5d192.png)
 
 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I used the same methodology that was used to analyze the tweets sentiment to explore the emotions associated with the tweets using the NRC lexicon. The below radar chart details the results of applying the NRC lexicon to the tweets. The strongest emotion associated with the tweets is negative, which is followed in frequency by positive, sadness, joy, fear, and surprise. 
+
+### Emotion Radar Chart
+![radar chart](https://user-images.githubusercontent.com/22827466/39078682-d4484bb6-44da-11e8-91a7-179212005c78.PNG)
+
+
+### Commonality Cloud
+![commonality cloud](https://user-images.githubusercontent.com/22827466/39078725-8e65f552-44db-11e8-93c0-e262ec514c60.png)
+
+### Comparision Cloud
+![comparison cloud](https://user-images.githubusercontent.com/22827466/39078731-a4e3edc0-44db-11e8-964f-7fc41785029a.png)
